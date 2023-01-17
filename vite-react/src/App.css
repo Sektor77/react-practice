@@ -1,0 +1,220 @@
+/*#root {*/
+/*  max-width: 1280px;*/
+/*  margin: 0 auto;*/
+/*  padding: 2rem;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.logo {*/
+/*  height: 6em;*/
+/*  padding: 1.5em;*/
+/*  will-change: filter;*/
+/*}*/
+/*.logo:hover {*/
+/*  filter: drop-shadow(0 0 2em #646cffaa);*/
+/*}*/
+/*.logo.react:hover {*/
+/*  filter: drop-shadow(0 0 2em #61dafbaa);*/
+/*}*/
+
+/*@keyframes logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  a:nth-of-type(2) .logo {*/
+/*    animation: logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
+
+/*.card {*/
+/*  padding: 2em;*/
+/*}*/
+
+/*.read-the-docs {*/
+/*  color: #888;*/
+/*}*/
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #23252C;
+}
+
+.app-container {
+  margin: 20px auto auto auto;
+  border-radius: 1rem;
+  width: 317px;
+  background-color: #1A1B21;;
+}
+
+.info-panel {
+  background-color: #1A1B21;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.info-panel--image-container {
+  width: 317px;
+  height: 317px;
+  background-image: url("/profile-picture.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 18%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.info-panel--button-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 20px 33px;
+}
+
+.info-panel--name {
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  padding: 21px 20px 7px;
+}
+
+.info-panel--position {
+  color: #F3BF99;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  padding: 0 20px 9px;
+}
+
+.info-panel--webpage {
+  color: #F5F5F5;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.info-panel--email-button {
+  cursor: pointer;
+  color: #374151;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  width: 115px;
+  height: 34px;
+  border: 1px solid #D1D5DB;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.info-panel--linkedin-button {
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  width: 115px;
+  height: 34px;
+  border: 1px solid #5093E2;
+  background-color: #5093E2;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.about {
+  background-color: #1A1B21;
+  margin: 0 35px 30px;
+}
+
+.about--title {
+  color: #F5F5F5;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.about--description {
+  color: #DCDCDC;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.interests {
+  background-color: #1A1B21;
+  margin: 0 35px 30px;
+}
+
+.interests--title {
+  color: #F5F5F5;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.interests--description {
+  color: #DCDCDC;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161619;
+  height: 64px;
+  opacity: 50%;
+  border-radius: 0 0 1rem 1rem;
+  padding: 0 67px;
+}
+
+.footer-icon {
+  color: #918E9B;
+  font-size: 29px;
+}
