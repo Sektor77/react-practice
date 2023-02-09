@@ -65,7 +65,7 @@ body {
 .info-panel--image-container {
   width: 317px;
   height: 317px;
-  background-image: url("/profile-picture.jpeg");
+  background-image: url("../public/profile-picture.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 18%;
